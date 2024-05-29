@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <main>
+        <h1>CarPhotoApp</h1>
+        <section>
+            <h2>Car Photos</h2>
+            <p>see more <a href="https://www.motor1.com/features/262212/future-supercars-sports-cars-list/">car
+                    photos</a>
+                in our gallery.</p>
+            <img src="images/car.jfif" alt="anounyme car">
+        </section>
+
+        <section>
+            <h2>Car Lists</h2>
+            <h3>Things that cars love</h3>
+            <ul>
+                <li>A smooth, clean road</li>
+                <li>Regular maintenance</li>
+                <li>Skilled driver</li>
+                <li>Open highway</li>
+            </ul>
+            <figure>
+                <img src="images/Open highway.jpg" alt="Open highway" width="80%">
+                <figcaption>Cars <em>love</em> Open highway.</figcaption>
+            </figure>
+            <h3>Top 3 things cars hate:</h3>
+            <ol>
+                <li>Traffic jams</li>
+                <li>Extreme weather</li>
+                <li>Rough roads</li>
+                <li>Running out of fuel</li>
+            </ol>
+            <figure>
+                <img src="images/Running out of fuel.jfif" alt="Running out of fuel">
+                <figcaption>Cars <strong>hate</strong> Running out of fuel.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Car Form</h2>
+            <form action="/images">
+                <fieldset>
+                    <legend>Is your car 4*2 or 4*4?</legend>
+                    <input type="radio" name="pushing" id="4*2" value="4*2"><label for="4*2">4*2</label>
+                    <input type="radio" name="pushing" id="4*4" value="4*4" checked><label for="4*4">4*4</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your car personality?</legend>
+                    <input type="checkbox" name="personality" id ="Luxury Car" value="Luxury Car"><label for="Luxury Car">Luxury Car</label>
+                    <input type="checkbox" name="personality" id ="Muscle Car" value="Muscle Car"><label for="Muscle Car">Muscle Car</label>
+                    <input type="checkbox" name="personality" id ="Sports Car" value="Sports Car" checked><label for="Sports Car">Sports Car</label>
+                    <input type="checkbox" name="personality" id ="Classic Car" value="Classic Car"><label for="Classic Car">Classic Car</label>
+                </fieldset>
+                <input type="text" name="carphotourl" placeholder="car photo url" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        No Copyright - <a href="www.carwale.com">www.carwale.com</a>
+    </footer>
+</body>
+
+</html>
